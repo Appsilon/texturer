@@ -1,0 +1,6 @@
+dependencies:
+  - name: texturer
+    version: 0.1.0
+    src: htmlwidgets/lib/textures
+    script: 
+      - textures.js

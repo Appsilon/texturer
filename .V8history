@@ -1,0 +1,7 @@
+var iris = console.r.get("iris")
+var iris_col = console.r.get("iris", {dataframe : "col"})
+console.r.assign("iris2", iris)
+console.r.assign("iris3", iris, {simplifyVector : false})
+var out = console.r.call('rnorm', {n: 2,mean:10, sd:5})
+out
+console.r.eval('sessionInfo()')
